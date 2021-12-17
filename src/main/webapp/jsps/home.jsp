@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>John Solutions - Home Page</title>
+<title>Bilatech Technologies Solutions - Home Page</title>
 <link href="images/mylandmarklogo.png" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to John Solutions, Virginia, USA Office.</h1>
+<h1 align="center">Welcome to Bilatech Technologies Solutions, Houston, Texas, USA Office.</h1>
 <h1 align="center">We are developing and supporting quality  Software Solutions to millions of clients.
 	We offer  Training for DevOps with Linux and Cloud equipping IT Engineers for best performance.</h1>
 <hr>
@@ -33,20 +33,20 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/mylandmarklogo.png" alt="" width="150">
 	</span>
 	<span style="font-weight: bold;">
-                John Solutions, 
+                Bilatech Technologies Solutions, 
 		Toronto, Ontario, Canada
 		+1 437 215 2483,
 		mylandmarktech@gmail.com
 		<br>
-		<a href="mailto:John Solutions@gmail.com">Mail to John Solutions</a>
+		<a href="mailto:Bilatech Technologies Solutions@gmail.com">Mail to Bilatech Technologies Solutions</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>John Solutions - Consultant, Training and Software Development</p>
-<p align=center><small>Copyrights 2021 by <a href="http://mylandmarktech.com/">John Solutions</a> </small></p>
+<p align=center>Bilatech Technologies Solutions - Consultant, Training and Software Development</p>
+<p align=center><small>Copyrights 2021 by <a href="http://mylandmarktech.com/">Bilatech Technologies Solutions</a> </small></p>
 
 </body>
 </html>
