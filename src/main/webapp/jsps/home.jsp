@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Bilatech Technologies Solutions - Home Page</title>
+<title>Bilatech Solutions - Home Page</title>
 <link href="images/mylandmarklogo.png" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Bilatech Technologies Solutions, Houston, Texas, USA Office.</h1>
-<h1 align="center">We are developing and supporting quality  Software Solutions to millions of clients.
+<h1 align="center">Welcome to Bilatech Solutions, Houston, Texas, USA Office.</h1>
+<h1 align="center">We are developing and supporting quality Software Solutions to millions of clients.
 	We offer  Training for DevOps with Linux and Cloud equipping IT Engineers for best performance.</h1>
 <hr>
 <br>
@@ -38,15 +38,15 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		+1 437 215 2483,
 		mylandmarktech@gmail.com
 		<br>
-		<a href="mailto:Bilatech Technologies Solutions@gmail.com">Mail to Bilatech Technologies Solutions</a>
+		<a href="mailto:Bilatech Solutions@gmail.com">Mail to Bilatech Technologies Solutions</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Bilatech Technologies Solutions - Consultant, Training and Software Development</p>
-<p align=center><small>Copyrights 2021 by <a href="http://mylandmarktech.com/">Bilatech Technologies Solutions</a> </small></p>
+<p align=center>Bilatech Solutions - Consultant, Training and Software Development</p>
+<p align=center><small>Copyrights 2021 by <a href="http://mylandmarktech.com/">Bilatech Solutions</a> </small></p>
 
 </body>
 </html>
