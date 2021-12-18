@@ -1,0 +1,36 @@
+node {
+    def mavenHome = tool name: 'Maven3.8.4'
+    
+    stage ('1-Clone') {
+        git credentialsId: 'Github-Credential', url: 'https://github.com/timbobb/web-app.git'
+        
+    }
+    stage ('2-MavenBuild') {
+        sh "${mavenHome}/bin/mvn clean package"
+    }
+    stage ('3-CodeQuality') {
+        sh "${mavenHome}/bin/mvn sonar:sonar"
+    }
+    stage ('4-UploadArtifact') {
+        sh "${mavenHome}/bin/mvn deploy"
+    }
+    stage ('5-DeployToUAT') {
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Credential', path: '', url: 'http://54.208.88.73:7000/')], contextPath: null, war: 'target/*war'
+    }
+    stage ('6-EmailNotification') {
+        emailext body: '''This is a notification to tell you about the Ebay Webapp build
+
+        Regards,
+
+        Tony''', subject: 'Ebay Webapp Build', to: 'tonysonaike@gmail.com'
+    } 
+    stage ('7-Approval') {
+        timeout(time: 8, unit: 'HOURS') {
+        input message: 'Please verify and Approve'
+}
+    }  
+    stage ('8-DeployToProd') {
+       deploy adapters: [tomcat9(credentialsId: 'Tomcat-Credential', path: '', url: 'http://54.208.88.73:7000/')], contextPath: null, war: 'target/*war' 
+    }     
+}
+    
